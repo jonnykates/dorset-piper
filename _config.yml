@@ -4,7 +4,7 @@ header-img: img/home-bg.jpg
 email: dorsetpiper@hotmail.co.uk
 copyright_name: Dorset Piper
 description: "Experienced local bagpiper available for hire"
-baseurl: "/dorset-piper/"
+baseurl: "/dorset-piper"
 url: "http://jonnykates.github.io"
 twitter_username:
 github_username:
