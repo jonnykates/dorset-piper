@@ -1,0 +1,50 @@
+.nav li.hide-me {
+  display: none;
+}
+
+.navbar-custom .nav li a {
+  font-size: 16px;
+}
+
+.nav li ul {
+  display: none;
+}
+
+.nav li:hover ul {
+  display: block;
+}
+
+.nav li ul li {
+  list-style: none;
+}
+
+.nav li ul {
+  padding-left: 0 !important;
+  background-color: #363636;
+  position: absolute;
+  width: 200px;
+}
+
+.nav li ul li a {
+  display: block;
+  padding: 12px 20px !important;
+  font-size: 14px !important;
+  color: #fff !important;
+}
+
+.intro-header.tile {
+  background-size: initial;
+  background-repeat: repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .nav li:hover ul {
+    display: none;
+  }
+  .nav li.hide-me {
+    display: block;
+  }
+  .arrow-span {
+    display: none;
+  }
+}

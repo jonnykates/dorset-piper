@@ -1,0 +1,41 @@
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+
+                <li><a href="/about-me/">About me</a></li>
+                <li><a href="/repertoire/">Repertoire</a></li>
+                <li>
+                    <a href="/event-piper/">Events  <span class="arrow-span" style="font-size: 12px; vertical-align: middle;">&#9660;</span></a>
+                    <ul>
+                        <li><a href="/wedding-piper/">Weddings</a></li>
+                        <li><a href="/funeral-piper/">Funerals</a></li>
+                        <li><a href="/special-occasions/">Special occasions</a></li>
+                        <li><a href="/corporate-events/">Corporate events</a></li>
+                    </ul>
+                </li>
+                <li class="hide-me"><a href="/wedding-piper/">Weddings</a></li>
+                <li class="hide-me"><a href="/funeral-piper/">Funerals</a></li>
+                <li class="hide-me"><a href="/special-occasions/">Special occasions</a></li>
+                <li class="hide-me"><a href="/corporate-events/">Corporate events</a></li>
+                <li><a href="/contact/">Contact me</a></li>
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>

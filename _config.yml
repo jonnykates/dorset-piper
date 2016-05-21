@@ -1,0 +1,21 @@
+# Site settings
+title: Dorset Piper
+header-img: img/home-bg.jpg
+email: dorsetpiper@hotmail.co.uk
+copyright_name: Dorset Piper
+description: "Experienced local bagpiper available for hire"
+baseurl: ""
+url: "http://dorsetpiper.co.uk"
+twitter_username:
+github_username:
+facebook_username:
+email_username: dorsetpiper@hotmail.co.uk
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
